@@ -2,7 +2,8 @@ import { AppBar, Avatar, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 import logo from "../img/logo.png";
-import Link from "@mui/material/Link";
+
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <Box>
@@ -55,7 +56,13 @@ const Navbar = () => {
             cursor: "pointer",
           }}
         >
-          <Link href="/contactUs" color="white" underline="none">
+          <Link
+            to="/contactUs"
+            style={{
+              color: "white",
+              textDecoration: "none",
+            }}
+          >
             CONTACT US
           </Link>
         </Typography>
