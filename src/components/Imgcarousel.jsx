@@ -7,7 +7,6 @@ import pastery from "../img/pastery.jpg";
 import shakes from "../img/shakes.jpg";
 import Image from "mui-image";
 import { Box } from "@mui/system";
-import { Button, Typography } from "@mui/material";
 function Imgcarousel() {
   const items = [cake, coffee, crossiont, donuts, pastery, shakes];
   const [first, setfirst] = useState(0);

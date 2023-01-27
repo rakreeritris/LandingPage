@@ -2,7 +2,6 @@ import { AppBar, Avatar, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 import logo from "../img/logo.png";
-import Image from "mui-image";
 import Link from "@mui/material/Link";
 import HomeIcon from "@mui/icons-material/Home";
 const NavbarContact = () => {

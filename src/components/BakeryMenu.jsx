@@ -1,6 +1,5 @@
 import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
-import Image from "mui-image";
 import React from "react";
 import menuimg from "../img/menuimg.jpg";
 import menuimg2 from "../img/menuimg2.jpg";
